@@ -1,0 +1,30 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "buraksakalli",
+      "name": "Burak Sakalli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10114716?v=4",
+      "profile": "https://buraksakalli.org",
+      "contributions": [
+        "code",
+        "design",
+        "doc",
+        "maintenance",
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "svglide",
+  "projectOwner": "buraksakalli"
+}
