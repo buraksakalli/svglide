@@ -60,6 +60,17 @@ Here is the list in the format you requested:
 - [ ] Travel
 - [ ] Weather
 
+## Lucide Integration
+
+Use the `LucideIcon` component to render any icon from the full [Lucide](https://lucide.dev/) set.
+All missing icons are automatically generated and exported individually as well.
+
+```tsx
+import { LucideIcon } from "svglide";
+
+<LucideIcon name="Cake" data-hovered={hovered} />;
+```
+
 ## 👥 Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->

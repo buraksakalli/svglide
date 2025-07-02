@@ -270,6 +270,32 @@ import { BellElectric } from "./bell-electric";
 import { Blinds } from "./blinds";
 import { Bolt } from "./bolt";
 import { CookingPot } from "./cooking-pot";
+import { Beer } from "./beer";
+import { Coffee } from "./coffee";
+import { Apple } from "./apple";
+import { Camera } from "./camera";
+import { Heart } from "./heart";
+import { Pizza } from "./pizza";
+import { Accessibility } from "./accessibility";
+import { Album } from "./album";
+import { Ambulance } from "./ambulance";
+import { Ampersand } from "./ampersand";
+import { Ampersands } from "./ampersands";
+import { Amphora } from "./amphora";
+import { Anchor } from "./anchor";
+import { Angry } from "./angry";
+import { Annoyed } from "./annoyed";
+import { Antenna } from "./antenna";
+import { Aperture } from "./aperture";
+import { AppWindow } from "./app-window";
+import { AppWindowMac } from "./app-window-mac";
+import { Armchair } from "./armchair";
+import { Asterisk } from "./asterisk";
+import { AtSign } from "./at-sign";
+import { Atom } from "./atom";
+import { AudioLines } from "./audio-lines";
+import { AudioWaveform } from "./audio-waveform";
+import { Award } from "./award";
 import { DoorClosed } from "./door-closed";
 import { DoorOpen } from "./door-open";
 import { Drill } from "./drill";
@@ -331,6 +357,10 @@ import { Trash } from "./trash";
 import { Trash2 } from "./trash-2";
 import { Copy } from "./copy";
 import { Check } from "./check";
+import { Flame } from "./flame";
+import { DiamondMinus } from "./diamond-minus";
+import { LucideIcon } from "./lucide-icon";
+import { GeneratedIcons } from "./generated";
 
 export {
   Activity,
@@ -605,6 +635,32 @@ export {
   Blinds,
   Bolt,
   CookingPot,
+  Beer,
+  Coffee,
+  Apple,
+  Camera,
+  Heart,
+  Pizza,
+  Accessibility,
+  Album,
+  Ambulance,
+  Ampersand,
+  Ampersands,
+  Amphora,
+  Anchor,
+  Angry,
+  Annoyed,
+  Antenna,
+  Aperture,
+  AppWindow,
+  AppWindowMac,
+  Armchair,
+  Asterisk,
+  AtSign,
+  Atom,
+  AudioLines,
+  AudioWaveform,
+  Award,
   DoorClosed,
   DoorOpen,
   Drill,
@@ -666,7 +722,12 @@ export {
   Trash2,
   Copy,
   Check,
+  Flame,
+  DiamondMinus,
+  LucideIcon,
 };
+
+export * from "./generated";
 
 export const Icons = [
   [Activity, "Activity"],
@@ -941,9 +1002,34 @@ export const Icons = [
   [Blinds, "Blinds"],
   [Bolt, "Bolt"],
   [CookingPot, "Cooking Pot"],
+  [Beer, "Beer"],
+  [Coffee, "Coffee"],
+  [Apple, "Apple"],
+  [Camera, "Camera"],
+  [Heart, "Heart"],
+  [Pizza, "Pizza"],
   [DoorClosed, "Door Closed"],
+  [Accessibility, "Accessibility"],
+  [Album, "Album"],
+  [Ambulance, "Ambulance"],
+  [Ampersand, "Ampersand"],
+  [Ampersands, "Ampersands"],
+  [Amphora, "Amphora"],
+  [Anchor, "Anchor"],
+  [Angry, "Angry"],
+  [Annoyed, "Annoyed"],
+  [Antenna, "Antenna"],
+  [Aperture, "Aperture"],
+  [AppWindow, "App Window"],
+  [AppWindowMac, "App Window Mac"],
+  [Armchair, "Armchair"],
+  [Asterisk, "Asterisk"],
+  [AtSign, "At Sign"],
+  [Atom, "Atom"],
+  [AudioLines, "Audio Lines"],
+  [AudioWaveform, "Audio Waveform"],
+  [Award, "Award"],
   [DoorOpen, "Door Open"],
-  [Drill, "Drill"],
   [Fan, "Fan"],
   [FireExtinguisher, "Fire Extinguisher"],
   [Hammer, "Hammer"],
@@ -1002,6 +1088,10 @@ export const Icons = [
   [Trash2, "Trash 2"],
   [Copy, "Copy"],
   [Check, "Check"],
+  [Flame, "Flame"],
+  [DiamondMinus, "Diamond Minus"],
+  ...GeneratedIcons,
+  [LucideIcon, "Lucide Icon"],
 ] as const;
 
 export type IconTuple = (typeof Icons)[number];
